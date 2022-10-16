@@ -18,14 +18,14 @@ for (int i = 0; i < size; i++)
 
 string[] arrayFinal = new string[size];
 int len = 3;
-int pos = 0;
+int position = 0;
 
 for (int j = 0; j < size; j++)
 {
     if (arrayStrings[j].Length <= len)
     {
-        arrayFinal[pos] = arrayStrings[j];
-        pos++;
+        arrayFinal[position] = arrayStrings[j];
+        position++;
     }
 }
 
